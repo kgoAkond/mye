@@ -1,0 +1,12 @@
+.editor-item-text {
+    background-color: whitesmoke;
+    border: solid 1px;
+}
+.editor-item-empty {
+    height: 0px;
+    background-color: white;
+}
+
+.editor-item-synch {
+    background-color: orange !important;
+}

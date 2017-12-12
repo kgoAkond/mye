@@ -1,0 +1,76 @@
+        .player-container {
+            /* max-width: 1200px; */
+            display: flex;
+            flex-direction: column;
+            background-color: rgb( 0, 0, 0);
+            margin: 0 auto;
+            font-family: ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif;
+        }
+        .player-item-backlight { 
+            background-color: rgba( 255, 255, 255, 0.2) !important;
+            transition: background-color 0.5s ease 0s; 
+        }
+        .player-item {
+            min-height: 5vh;
+            display: flex;
+            flex-direction: column;
+            background-color: rgba( 255, 255, 255, 0.1);
+            margin: 0.5vh 0vw 0.5vh 0vw;
+            padding: 1.2vh 4vw 1.2vh 4vw;
+            justify-items: stretch;
+            align-items: start;
+            justify-content: space-between;
+            /* align-content: space-around; */
+        }
+        .player-subitem-1 {
+            font-size: 5vmin;
+            line-height: 7vmin;
+            letter-spacing: 0.07px;
+            background-color: rgba( 80, 80, 80, 0);
+
+        }
+        .player-subitem-2 {
+            color: #a0dea2;
+            font-size: 4vmin;
+            line-height: 5vmin;
+            letter-spacing: 0.07px;
+            background-color: rgba( 80, 80, 80, 0);
+        }
+        .player-show-text-src {
+            color: whitesmoke;    
+            transition: color 0.5s ease 0s;        
+        }
+        .player-hide-text {
+            color: transparent;            
+        }
+        .player-progress {
+           width: 0%;
+           height: 3px; 
+           background-color: rgba(255, 100, 0, 0.8);
+           /*transition: width 0.5s linear 0s;*/
+                                         
+        }
+        .player-progress-hide {
+           width: 0%;
+           height: 3px; 
+           background-color: rgba(255, 100, 0, 0.8);
+           /*transition: width 1.2s linear 0s;    */                              
+        }
+        .player-btn {
+            width: 10vmin;
+            color: white;
+            opacity: 0.5;
+            background-color: rgba(255,255,255, 0.1);
+            padding: 1vmin;
+        }
+        .player-btn-back {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            
+        }
+        .player-btn-clear {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }

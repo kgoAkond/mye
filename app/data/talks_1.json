@@ -1,0 +1,33 @@
+    [
+        {
+            "name": "Friends s07e01",
+            "movie": "http://achimov.com/mye/Friends.mp4",
+            "text":  "data/friends.json"
+        },        
+        {
+            "name": "Prawdziwy powód znikania etatów w przemyśle",
+            "movie": "http://achimov.com/mye/data/ted/AugiePicado_2017S-320k.mp4",
+            "text":  "data/ted/AugiePicado_2017S.en.pl.srt"
+        },
+        {
+            "name": "Plan młodego wynalazcy dotyczący recyklingu styropianu",
+            "movie": "https://download.ted.com/talks/AshtonCofer_2016Y-320k.mp4",
+            "text":  "data/ted/AshtonCofer_2016Y.en.pl.srt"
+        },
+        {
+            "name": "Amit Sood: Every piece of art you've ever wanted to see -- up close and searchable",
+            "movie": "https://download.ted.com/talks/AmitSood_2016-320k.mp4",
+            "text": "data/ted/AmitSood_2016.en.pl.srt"
+        },
+        {
+            "name": "Julie Burstein: 4 lessons in creativity",
+            "movie": "https://download.ted.com/talks/JulieBurstein_2012-320k.mp4",
+            "text": "data/ted/JulieBurstein_2012.en.pl.srt"
+        },
+        {
+            "name": "Stefano Mancuso: The roots of plant intelligence",
+            "movie": "https://download.ted.com/talks/StefanoMancuso_2010G-320k.mp4",
+            "text": "data/ted/StefanoMancuso_2010G.en.pl.srt",
+            "voice": "robot"
+        }
+    ]

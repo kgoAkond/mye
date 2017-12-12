@@ -1,0 +1,782 @@
+[
+  {
+    "textSrc": "It was just an ordinary Saturday.",
+    "textTarget": "To była zwyczajna sobota.",
+    "timeStart": 12.693,
+    "timeEnd": 15.116
+  },
+  {
+    "textSrc": "My dad was outside mowing the lawn,",
+    "textTarget": "Mój tata kosił trawnik przed domem,",
+    "timeStart": 15.14,
+    "timeEnd": 17.356
+  },
+  {
+    "textSrc": "my mom was upstairs folding laundry,",
+    "textTarget": "mama składała pranie na górze,",
+    "timeStart": 17.38,
+    "timeEnd": 19.636
+  },
+  {
+    "textSrc": "my sister was in her room doing homework",
+    "textTarget": "siostra odrabiała u siebie pracę domową,",
+    "timeStart": 19.66,
+    "timeEnd": 21.796
+  },
+  {
+    "textSrc": "and I was in the basement playing video games.",
+    "textTarget": "a ja grałem w gry komputerowe w piwnicy.",
+    "timeStart": 21.82,
+    "timeEnd": 24.18
+  },
+  {
+    "textSrc": "And as I came upstairs to get something to drink,",
+    "textTarget": "Kiedy przyszedłem na górę po coś do picia,",
+    "timeStart": 24.9,
+    "timeEnd": 27.236
+  },
+  {
+    "textSrc": "I looked out the window",
+    "textTarget": "wyjrzałem przez okno",
+    "timeStart": 27.26,
+    "timeEnd": 28.476
+  },
+  {
+    "textSrc": "and realized that there was something that I was supposed to be doing,",
+    "textTarget": "i uświadomiłem sobie, że miałem coś robić.",
+    "timeStart": 28.5,
+    "timeEnd": 31.796
+  },
+  {
+    "textSrc": "and this is what I saw.",
+    "textTarget": "Zobaczyłem to.",
+    "timeStart": 31.82,
+    "timeEnd": 33.02
+  },
+  {
+    "textSrc": "No, this wasn't my family's dinner on fire.",
+    "textTarget": "Nie, nasz rodziny obiad nie stanął w ogniu.",
+    "timeStart": 35.7,
+    "timeEnd": 38.796
+  },
+  {
+    "textSrc": "This was my science project.",
+    "textTarget": "To był mój projekt naukowy.",
+    "timeStart": 38.82,
+    "timeEnd": 41.46
+  },
+  {
+    "textSrc": "Flames were pouring out,",
+    "textTarget": "Płomienie szalały,",
+    "timeStart": 42.06,
+    "timeEnd": 43.516
+  },
+  {
+    "textSrc": "smoke was in the air",
+    "textTarget": "powietrze wypełniał dym",
+    "timeStart": 43.54,
+    "timeEnd": 44.756
+  },
+  {
+    "textSrc": "and it looked like our wooden deck was about to catch fire.",
+    "textTarget": "i wyglądało na to, że zaraz zapali się nasz drewniany taras.",
+    "timeStart": 44.78,
+    "timeEnd": 47.996
+  },
+  {
+    "textSrc": "I immediately started yelling.",
+    "textTarget": "Natychmiast zacząłem krzyczeć.",
+    "timeStart": 48.02,
+    "timeEnd": 49.836
+  },
+  {
+    "textSrc": "My mom was freaking out,",
+    "textTarget": "Moja mama wpadła w panikę,",
+    "timeStart": 49.86,
+    "timeEnd": 51.356
+  },
+  {
+    "textSrc": "my dad ran around to put out the fire",
+    "textTarget": "tata biegał gasząc ogień,",
+    "timeStart": 51.38,
+    "timeEnd": 53.476
+  },
+  {
+    "textSrc": "and of course my sister started recording a Snapchat video.",
+    "textTarget": "a siostra oczywiście zaczęła nagrywać filmik na Snapchata.",
+    "timeStart": 53.5,
+    "timeEnd": 57.636
+  },
+  {
+    "textSrc": "(Laughter)",
+    "textTarget": "(Śmiech)",
+    "timeStart": 57.66,
+    "timeEnd": 59.556
+  },
+  {
+    "textSrc": "This was just the beginning of my team's science project.",
+    "textTarget": "To był zaledwie początek projektu naukowego mojego zespołu.",
+    "timeStart": 59.58,
+    "timeEnd": 62.78
+  },
+  {
+    "textSrc": "My team is composed of me and three other students",
+    "textTarget": "W zespole byłem ja i trójka innych uczniów,",
+    "timeStart": 63.3,
+    "timeEnd": 65.956
+  },
+  {
+    "textSrc": "who are here in the audience today.",
+    "textTarget": "którzy są dzisiaj na widowni.",
+    "timeStart": 65.98,
+    "timeEnd": 67.66
+  },
+  {
+    "textSrc": "We competed in FIRST LEGO League",
+    "textTarget": "Braliśmy udział w FIRST LEGO League,",
+    "timeStart": 68.1,
+    "timeEnd": 70.116
+  },
+  {
+    "textSrc": "which is an international LEGO robotics competition for kids,",
+    "textTarget": "czyli międzynarodowym konkursie robotyki LEGO dla dzieci,",
+    "timeStart": 70.14,
+    "timeEnd": 73.676
+  },
+  {
+    "textSrc": "and in addition to a robotics game,",
+    "textTarget": "a oprócz zawodów robotyki",
+    "timeStart": 73.7,
+    "timeEnd": 75.556
+  },
+  {
+    "textSrc": "we also worked on a separate science project,",
+    "textTarget": "zajmowaliśmy się też osobnym projektem naukowym.",
+    "timeStart": 75.58,
+    "timeEnd": 77.956
+  },
+  {
+    "textSrc": "and this was the project that we were working on.",
+    "textTarget": "I właśnie nad tym pracowaliśmy.",
+    "timeStart": 77.98,
+    "timeEnd": 80.676
+  },
+  {
+    "textSrc": "So the idea for this project all started",
+    "textTarget": "Pomysł projektu narodził się",
+    "timeStart": 80.7,
+    "timeEnd": 82.676
+  },
+  {
+    "textSrc": "when a few months earlier,",
+    "textTarget": "kilka miesięcy wcześniej,",
+    "timeStart": 82.7,
+    "timeEnd": 83.956
+  },
+  {
+    "textSrc": "a couple of my teammates took a trip to Central America",
+    "textTarget": "gdy kilku członków mojej drużyny odwiedziło Amerykę Środkową",
+    "timeStart": 83.98,
+    "timeEnd": 86.79599999999999
+  },
+  {
+    "textSrc": "and saw beaches littered with Styrofoam,",
+    "textTarget": "i zobaczyło plaże pełne styropianu",
+    "timeStart": 86.82,
+    "timeEnd": 89.316
+  },
+  {
+    "textSrc": "or expanded polystyrene foam.",
+    "textTarget": "czyli spienionego polistyrenu.",
+    "timeStart": 89.34,
+    "timeEnd": 91.3
+  },
+  {
+    "textSrc": "And when they came back and told us about it,",
+    "textTarget": "Kiedy wrócili i opowiedzieli nam o tym,",
+    "timeStart": 91.86,
+    "timeEnd": 93.99600000000001
+  },
+  {
+    "textSrc": "we really started thinking about the ways in which we see Styrofoam every day.",
+    "textTarget": "zaczęliśmy myśleć o tym, gdzie na co dzień widzimy styropian.",
+    "timeStart": 94.02000000000001,
+    "timeEnd": 97.71600000000001
+  },
+  {
+    "textSrc": "Get a new flat-screen TV?",
+    "textTarget": "Kupiłeś nowy telewizor?",
+    "timeStart": 97.74000000000001,
+    "timeEnd": 99.356
+  },
+  {
+    "textSrc": "You end up with a block of Styrofoam bigger than the TV itself.",
+    "textTarget": "Zostaje ci kawałek styropianu większy niż sam telewizor.",
+    "timeStart": 99.38,
+    "timeEnd": 102.34
+  },
+  {
+    "textSrc": "Drink a cup of coffee?",
+    "textTarget": "Wypiłeś kubek kawy?",
+    "timeStart": 102.9,
+    "timeEnd": 104.356
+  },
+  {
+    "textSrc": "Well, those Styrofoam coffee cups are sure going to add up.",
+    "textTarget": "Te styropianowe kubki z pewnością się gromadzą.",
+    "timeStart": 104.38,
+    "timeEnd": 107.556
+  },
+  {
+    "textSrc": "And where do all these items go after their one-time use?",
+    "textTarget": "Co dzieje się z tymi rzeczami po jednorazowym wykorzystaniu?",
+    "timeStart": 107.58,
+    "timeEnd": 110.956
+  },
+  {
+    "textSrc": "Since there aren't any good existing solutions for used Styrofoam,",
+    "textTarget": "Nie istnieją dobre rozwiązania dotyczące używanego styropianu,",
+    "timeStart": 110.97999999999999,
+    "timeEnd": 114.396
+  },
+  {
+    "textSrc": "almost all of them end up right in the landfill,",
+    "textTarget": "więc większość z nich trafia na wysypiska",
+    "timeStart": 114.42,
+    "timeEnd": 116.956
+  },
+  {
+    "textSrc": "or the oceans and beaches,",
+    "textTarget": "lub do oceanów i na plaże,",
+    "timeStart": 116.97999999999999,
+    "timeEnd": 118.316
+  },
+  {
+    "textSrc": "taking over 500 years to degrade.",
+    "textTarget": "rozkładając się przez ponad 500 lat.",
+    "timeStart": 118.34,
+    "timeEnd": 121.036
+  },
+  {
+    "textSrc": "And in fact, every year, the US alone",
+    "textTarget": "W samych Stanach każdego roku",
+    "timeStart": 121.06,
+    "timeEnd": 123.276
+  },
+  {
+    "textSrc": "produces over two billion pounds of Styrofoam,",
+    "textTarget": "produkuje się ponad 900 milionów kilogramów styropianu,",
+    "timeStart": 123.3,
+    "timeEnd": 125.956
+  },
+  {
+    "textSrc": "filling up a staggering 25 percent of landfills.",
+    "textTarget": "który zajmuje aż 25 procent wysypisk.",
+    "timeStart": 125.98,
+    "timeEnd": 129.156
+  },
+  {
+    "textSrc": "So why do we have these ghost accumulations of Styrofoam waste?",
+    "textTarget": "Dlaczego mamy takie ilości styropianowych odpadów?",
+    "timeStart": 129.18,
+    "timeEnd": 132.26
+  },
+  {
+    "textSrc": "Why can't we just recycle them like many plastics?",
+    "textTarget": "Dlaczego go nie odzyskujemy, jak wielu innych plastików?",
+    "timeStart": 132.86,
+    "timeEnd": 135.66
+  },
+  {
+    "textSrc": "Well, simply put, recycled polystyrene is too expensive",
+    "textTarget": "Mówiąc najprościej, polistyren z odzysku jest zbyt drogi",
+    "timeStart": 136.22,
+    "timeEnd": 139.636
+  },
+  {
+    "textSrc": "and potentially contaminated,",
+    "textTarget": "i potencjalnie skażony,",
+    "timeStart": 139.66,
+    "timeEnd": 141.236
+  },
+  {
+    "textSrc": "because it is neither feasible nor viable to recycle polystyrene.",
+    "textTarget": "ponieważ recykling polistyrenu jest mało realny i trudny do wykonania.",
+    "timeStart": 149.06,
+    "timeEnd": 152.82
+  },
+  {
+    "textSrc": "And in fact, many cities across the US",
+    "textTarget": "W wielu miastach w Stanach Zjednoczonych",
+    "timeStart": 153.42000000000002,
+    "timeEnd": 155.996
+  },
+  {
+    "textSrc": "have even passed ordinances",
+    "textTarget": "wprowadzono nawet przepisy",
+    "timeStart": 156.02,
+    "timeEnd": 157.436
+  },
+  {
+    "textSrc": "that simply ban the production of many products containing polystyrene,",
+    "textTarget": "po prostu zakazujące produkcji przedmiotów zawierających polistyren,",
+    "timeStart": 157.46,
+    "timeEnd": 161.076
+  },
+  {
+    "textSrc": "which includes disposable utensils,",
+    "textTarget": "takich jak jednorazowe sztućce,",
+    "timeStart": 161.1,
+    "timeEnd": 163.156
+  },
+  {
+    "textSrc": "packing peanuts, takeout containers",
+    "textTarget": "wypełniacze paczek, naczynia jedzenia na wynos",
+    "timeStart": 163.18,
+    "timeEnd": 165.356
+  },
+  {
+    "textSrc": "and even plastic beach toys,",
+    "textTarget": "czy nawet plastikowe zabawki plażowe -",
+    "timeStart": 165.38,
+    "timeEnd": 167.516
+  },
+  {
+    "textSrc": "all products that are very useful in today's society.",
+    "textTarget": "wszystkich produktów, które są dzisiaj bardzo użyteczne.",
+    "timeStart": 167.54,
+    "timeEnd": 170.516
+  },
+  {
+    "textSrc": "And now France has become the first country",
+    "textTarget": "Francja jest pierwszym krajem,",
+    "timeStart": 170.54,
+    "timeEnd": 172.716
+  },
+  {
+    "textSrc": "to completely ban all plastic utensils,",
+    "textTarget": "który całkowicie zakazał plastikowych sztućców,",
+    "timeStart": 172.74,
+    "timeEnd": 174.996
+  },
+  {
+    "textSrc": "cups and plates.",
+    "textTarget": "kubków i talerzy.",
+    "timeStart": 175.02,
+    "timeEnd": 176.62
+  },
+  {
+    "textSrc": "But what if we could keep using Styrofoam",
+    "textTarget": "A jeśli moglibyśmy  dalej używać styropianu,",
+    "timeStart": 177.1,
+    "timeEnd": 179.516
+  },
+  {
+    "textSrc": "and keep benefiting from its cheap, lightweight, insulating",
+    "textTarget": "czerpiąc korzyści z jego niskiej ceny, lekkości, właściwości izolacyjnych",
+    "timeStart": 179.54,
+    "timeEnd": 183.276
+  },
+  {
+    "textSrc": "and excellent packing ability,",
+    "textTarget": "i świetnych możliwości pakowania,",
+    "timeStart": 183.3,
+    "timeEnd": 185.036
+  },
+  {
+    "textSrc": "while not having to suffer from the repercussions",
+    "textTarget": "nie ponosząc przy tym negatywnych konsekwencji",
+    "timeStart": 185.06,
+    "timeEnd": 187.396
+  },
+  {
+    "textSrc": "of having to dispose of it?",
+    "textTarget": "konieczności utylizacji?",
+    "timeStart": 187.42,
+    "timeEnd": 188.74
+  },
+  {
+    "textSrc": "What if we could turn it into something else that's actually useful?",
+    "textTarget": "Jeśli moglibyśmy przerobić go na coś innego, rzeczywiście użytecznego?",
+    "timeStart": 189.14,
+    "timeEnd": 192.636
+  },
+  {
+    "textSrc": "What if we could make the impossible possible?",
+    "textTarget": "Jeśli moglibyśmy uczynić niemożliwe możliwym?",
+    "timeStart": 192.66,
+    "timeEnd": 195.22
+  },
+  {
+    "textSrc": "My team hypothesized that we could use the carbon that's already in Styrofoam",
+    "textTarget": "Mój zespół postawił hipotezę, że z węgla zawartego już w styropianie",
+    "timeStart": 196.22,
+    "timeEnd": 200.796
+  },
+  {
+    "textSrc": "to create activated carbon,",
+    "textTarget": "można stworzyć węgiel aktywny,",
+    "timeStart": 200.82,
+    "timeEnd": 202.516
+  },
+  {
+    "textSrc": "which is used in almost every water filter today.",
+    "textTarget": "używany obecnie w większości filtrów wody.",
+    "timeStart": 202.54,
+    "timeEnd": 204.9
+  },
+  {
+    "textSrc": "And activated carbon works by using very small micropores",
+    "textTarget": "Węgiel aktywny działa dzięki użyciu bardzo małych mikroporów,",
+    "timeStart": 205.3,
+    "timeEnd": 208.916
+  },
+  {
+    "textSrc": "to filter out contaminants from water or even air.",
+    "textTarget": "przez które filtrowane są skażenia wody czy nawet powietrza.",
+    "timeStart": 208.94,
+    "timeEnd": 211.9
+  },
+  {
+    "textSrc": "So we started out by doing a variety of heating tests,",
+    "textTarget": "Zaczęliśmy więc od przeprowadzenia różnych testów z podgrzewaniem",
+    "timeStart": 212.66,
+    "timeEnd": 215.836
+  },
+  {
+    "textSrc": "and unfortunately, we had many failures.",
+    "textTarget": "i niestety ponieśliśmy wiele porażek.",
+    "timeStart": 215.86,
+    "timeEnd": 218.94
+  },
+  {
+    "textSrc": "Literally, nothing worked.",
+    "textTarget": "Dosłownie nic nie działało.",
+    "timeStart": 219.46,
+    "timeEnd": 221.996
+  },
+  {
+    "textSrc": "Besides my dad's grill catching on fire,",
+    "textTarget": "Oprócz tego, że zapalił się grill mojego taty,",
+    "timeStart": 222.02,
+    "timeEnd": 224.276
+  },
+  {
+    "textSrc": "most of our samples vaporized into nothing,",
+    "textTarget": "większość naszych próbek wyparowała",
+    "timeStart": 224.3,
+    "timeEnd": 226.95600000000002
+  },
+  {
+    "textSrc": "or exploded inside expensive furnaces,",
+    "textTarget": "lub eksplodowała wewnątrz drogich pieców,",
+    "timeStart": 226.98,
+    "timeEnd": 229.39600000000002
+  },
+  {
+    "textSrc": "leaving a horribly sticky mess.",
+    "textTarget": "zostawiając po sobie okropnie lepką maź.",
+    "timeStart": 229.42000000000002,
+    "timeEnd": 231.66
+  },
+  {
+    "textSrc": "In fact, we were so saddened by our failures that we almost gave up.",
+    "textTarget": "Nasze porażki tak bardzo nas zasmuciły, że prawie się poddaliśmy.",
+    "timeStart": 232.26,
+    "timeEnd": 235.86
+  },
+  {
+    "textSrc": "So why did we keep trying",
+    "textTarget": "Czemu ciągle próbowaliśmy,",
+    "timeStart": 237.18,
+    "timeEnd": 238.516
+  },
+  {
+    "textSrc": "when all the adults said it was impossible?",
+    "textTarget": "gdy każdy dorosły mówił, że to niemożliwe?",
+    "timeStart": 238.54,
+    "timeEnd": 240.916
+  },
+  {
+    "textSrc": "Well, maybe it's because we're kids. We don't know any better.",
+    "textTarget": "Może dlatego, że jesteśmy dziećmi.  Nie mamy nic lepszego do roboty.",
+    "timeStart": 240.94,
+    "timeEnd": 244.08
+  },
+  {
+    "textSrc": "But the truth is, we kept trying because we thought it was still possible.",
+    "textTarget": "Ale tak naprawdę próbowaliśmy, bo myśleliśmy, że to wciąż jest możliwe.",
+    "timeStart": 244.599,
+    "timeEnd": 248.076
+  },
+  {
+    "textSrc": "We knew that if we were successful,",
+    "textTarget": "Wiedzieliśmy, że jeśli nam się uda,",
+    "timeStart": 248.1,
+    "timeEnd": 249.796
+  },
+  {
+    "textSrc": "we would be helping the environment and making the world a better place.",
+    "textTarget": "to pomożemy środowisku i zmienimy świat na lepsze,",
+    "timeStart": 249.82,
+    "timeEnd": 253.236
+  },
+  {
+    "textSrc": "So we kept trying",
+    "textTarget": "więc ciągle próbowaliśmy",
+    "timeStart": 253.26,
+    "timeEnd": 254.916
+  },
+  {
+    "textSrc": "and failing",
+    "textTarget": "i ponosiliśmy porażki,",
+    "timeStart": 254.94,
+    "timeEnd": 256.676
+  },
+  {
+    "textSrc": "and trying",
+    "textTarget": "próbowaliśmy",
+    "timeStart": 256.7,
+    "timeEnd": 258.356
+  },
+  {
+    "textSrc": "and failing.",
+    "textTarget": "i ponosiliśmy porażki.",
+    "timeStart": 258.38,
+    "timeEnd": 259.956
+  },
+  {
+    "textSrc": "We were so ready to give up.",
+    "textTarget": "Byliśmy gotowi się poddać.",
+    "timeStart": 259.98,
+    "timeEnd": 261.62
+  },
+  {
+    "textSrc": "But then it happened.",
+    "textTarget": "Ale wtedy to się stało.",
+    "timeStart": 262.46,
+    "timeEnd": 264.036
+  },
+  {
+    "textSrc": "With the right temperatures, times and chemicals,",
+    "textTarget": "Przy odpowiednich temperaturach, czasach i substancjach",
+    "timeStart": 264.06,
+    "timeEnd": 266.756
+  },
+  {
+    "textSrc": "we finally got that successful test result",
+    "textTarget": "w końcu test zakończył się sukcesem, pokazując,",
+    "timeStart": 266.78,
+    "timeEnd": 269.526
+  },
+  {
+    "textSrc": "showing us that we had created activated carbon from Styrofoam waste.",
+    "textTarget": "że stworzyliśmy węgiel aktywny ze styropianowych odpadów.",
+    "timeStart": 269.06,
+    "timeEnd": 272.875
+  },
+  {
+    "textSrc": "And at that moment, the thing that had been impossible",
+    "textTarget": "W tamtym momencie to, co było dotychczas niemożliwe",
+    "timeStart": 272.899,
+    "timeEnd": 275.476
+  },
+  {
+    "textSrc": "all of a sudden wasn't.",
+    "textTarget": "nagle takie nie było.",
+    "timeStart": 275.5,
+    "timeEnd": 276.74
+  },
+  {
+    "textSrc": "It showed us that although we had many failures at the beginning,",
+    "textTarget": "Zobaczyliśmy, że chociaż na początku ponosiliśmy wiele porażek,",
+    "timeStart": 277.3,
+    "timeEnd": 280.356
+  },
+  {
+    "textSrc": "we were able to persevere through them to get the test results that we wanted.",
+    "textTarget": "daliśmy radę i osiągnęliśmy takie wyniki, jakie chcieliśmy.",
+    "timeStart": 280.38,
+    "timeEnd": 284.076
+  },
+  {
+    "textSrc": "And moreover, not only were we able to create activated carbon",
+    "textTarget": "Co więcej, mogliśmy nie tylko wytworzyć węgiel aktywny",
+    "timeStart": 284.1,
+    "timeEnd": 287.036
+  },
+  {
+    "textSrc": "for purifying water,",
+    "textTarget": "do oczyszczania wody,",
+    "timeStart": 287.06,
+    "timeEnd": 288.31600000000003
+  },
+  {
+    "textSrc": "but we were also able to reduce Styrofoam waste,",
+    "textTarget": "ale również zmniejszyć ilość styropianowych odpadów,",
+    "timeStart": 288.34000000000003,
+    "timeEnd": 290.796
+  },
+  {
+    "textSrc": "solving two global problems with just one solution.",
+    "textTarget": "rozwiązując dwa globalne problemy na raz.",
+    "timeStart": 290.82,
+    "timeEnd": 293.58
+  },
+  {
+    "textSrc": "So from then on, we were inspired to take our project further,",
+    "textTarget": "Zainspirowaliśmy się wtedy, aby poprowadzić projekt dalej,",
+    "timeStart": 294.14,
+    "timeEnd": 297.076
+  },
+  {
+    "textSrc": "performing more tests to make it more effective",
+    "textTarget": "prowadząc testy, żeby poprawić efektywność",
+    "timeStart": 297.1,
+    "timeEnd": 299.31600000000003
+  },
+  {
+    "textSrc": "and testing it in real world situations.",
+    "textTarget": "oraz testując go w realnym świecie.",
+    "timeStart": 299.416,
+    "timeEnd": 301.676
+  },
+  {
+    "textSrc": "We then proceeded to receive funding",
+    "textTarget": "Dostaliśmy wtedy dofinansowanie",
+    "timeStart": 301.7,
+    "timeEnd": 303.436
+  },
+  {
+    "textSrc": "from the NSTA's eCYBERMISSION STEM-in-Action program",
+    "textTarget": "z prowadzonego przez NTSA programu eCYBERMISSION STEM-In-Action",
+    "timeStart": 303.46,
+    "timeEnd": 306.436
+  },
+  {
+    "textSrc": "sponsored by the US Army,",
+    "textTarget": "sponsorowanego przez armię USA,",
+    "timeStart": 306.46,
+    "timeEnd": 308.196
+  },
+  {
+    "textSrc": "as well as FIRST Global Innovation Awards",
+    "textTarget": "a także FIRST Global Innovation Awards",
+    "timeStart": 308.22,
+    "timeEnd": 310.596
+  },
+  {
+    "textSrc": "sponsored by XPRIZE.",
+    "textTarget": "sponsorowaną przez XPRIZE.",
+    "timeStart": 310.62,
+    "timeEnd": 311.9
+  },
+  {
+    "textSrc": "And we were also honored",
+    "textTarget": "Zostaliśmy też wyróżnieni",
+    "timeStart": 312.46,
+    "timeEnd": 313.716
+  },
+  {
+    "textSrc": "with the Scientific American Innovator Award",
+    "textTarget": "nagrodą Scientific American Innovator Award",
+    "timeStart": 313.74,
+    "timeEnd": 316.516
+  },
+  {
+    "textSrc": "from Google Science Fair.",
+    "textTarget": "od Google Science Fair.",
+    "timeStart": 316.54,
+    "timeEnd": 317.78
+  },
+  {
+    "textSrc": "And using these funds, we plan to file a full patent on our process",
+    "textTarget": "Przy użyciu tych pieniędzy planujemy złożenie wniosku patentowego",
+    "timeStart": 318.3,
+    "timeEnd": 321.756
+  },
+  {
+    "textSrc": "and to continue to work on our project.",
+    "textTarget": "i kontynuację pracy nad projektem.",
+    "timeStart": 321.78,
+    "timeEnd": 323.66
+  },
+  {
+    "textSrc": "So yes, although we started with catching my dad's grill on fire",
+    "textTarget": "Choć zaczęliśmy od płonącego grilla mojego taty",
+    "timeStart": 324.26,
+    "timeEnd": 328.436
+  },
+  {
+    "textSrc": "and failing so many times that we almost quit,",
+    "textTarget": "i tylu porażek, że prawie zrezygnowaliśmy,",
+    "timeStart": 328.46,
+    "timeEnd": 330.956
+  },
+  {
+    "textSrc": "it was well worth it when we look back at it now.",
+    "textTarget": "patrząc teraz z perspektywy, było warto.",
+    "timeStart": 330.98,
+    "timeEnd": 333.516
+  },
+  {
+    "textSrc": "We took a problem that many people said was impossible",
+    "textTarget": "Wzięliśmy problem, zdaniem wielu, niemożliwy do rozwiązania",
+    "timeStart": 333.54,
+    "timeEnd": 336.356
+  },
+  {
+    "textSrc": "and we made it possible,",
+    "textTarget": "i rozwiązaliśmy go,",
+    "timeStart": 336.38,
+    "timeEnd": 337.876
+  },
+  {
+    "textSrc": "and we persevered when it looked like nothing that we did would work.",
+    "textTarget": "wytrwaliśmy, kiedy wydawało się, że nic, co zrobimy, nie zadziała.",
+    "timeStart": 337.9,
+    "timeEnd": 341.156
+  },
+  {
+    "textSrc": "We learned that you can't have success",
+    "textTarget": "Nauczyliśmy się, że nie odniesie się sukcesu",
+    "timeStart": 341.18,
+    "timeEnd": 343.276
+  },
+  {
+    "textSrc": "without a little,",
+    "textTarget": "bez kilku",
+    "timeStart": 343.3,
+    "timeEnd": 344.796
+  },
+  {
+    "textSrc": "or a lot, of failure.",
+    "textTarget": "albo wielu porażek.",
+    "timeStart": 344.82,
+    "timeEnd": 346.58
+  },
+  {
+    "textSrc": "So in the future, don't be afraid if your grill goes up in flames,",
+    "textTarget": "Więc w przyszłości nie bójcie się, jeśli wasz grill zacznie płonąć,",
+    "timeStart": 347.26,
+    "timeEnd": 350.876
+  },
+  {
+    "textSrc": "because you never know when your idea might just catch fire.",
+    "textTarget": "bo nigdy nie wiecie kiedy wasz pomysł zapłonie.",
+    "timeStart": 350.9,
+    "timeEnd": 354.78
+  },
+  {
+    "textSrc": "Thank you.",
+    "textTarget": "Dziękuję.",
+    "timeStart": 355.62,
+    "timeEnd": 356.836
+  },
+  {
+    "textSrc": "(Applause)",
+    "textTarget": "(Brawa)",
+    "timeStart": 356.86,
+    "timeEnd": 360.34
+  }
+]
