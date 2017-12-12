@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+        body {
+            background-color: black;
+            font-family: Verdana,sans-serif;
+        }
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .grid {            
+            display: flex;
+            flex-direction: column;
+        }
+        .ui-buttons {
+             color: white;
+             height: 10vh;
+             font-size: 3vmax;
+             text-align: center;
+        }
+        .text-src {
+            font-size: 3.5vmax;
+            color: whitesmoke;
+            height: 45vh;
+        }
+        .text-target {
+            font-size: 3.5vmax;
+            color: yellowgreen;
+            height: 45vh;
+            margin-right: 4vmax;
+           
+            
+        }
+        .text-input {
+            height: 25vh;
+        }
+        .text-input textarea {
+          width: 100%;
+          -moz-border-bottom-colors: none;
+          -moz-border-left-colors: none;
+          -moz-border-right-colors: none;
+          -moz-border-top-colors: none;
+          background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+          border-color: black;
+          color: yellow;   
+          font-size: 2vw;
+          transition: background-color 0.2s ease 0s;
+            
+        }
+        .grid > div {
+            /*border: 1px solid rgb(40,40,40);
+            border-radius: 5px;*/
+            background-color: rgba(255,255,255, 0.0);  
+            position: relative;
+        }
+        .progress {
+            width: 0%;
+            height: 100%;
+            background-color: rgba(255,255,255, 0.15);
+            z-index: -1;            
+        }
+        .text {
+            position: absolute;
+            left: 30px;
+            top: 10px;
+        }
+    </style>
+    <body ng-app="MYE" ng-controller="playerCtr">
+        <audio style="position: fixed; top: -1000px" id="vPlayer" width="0" height="0" controls></audio>
+        <div class="grid" ng-click="playNext()">
+            <div class="text-target"  style="padding-left: 30px; padding-top: 30px;" ng-if="true"><span ng-if="state.isPolishVisible">{{ currentItem.textTarget}}</span></div>
+            <div class="text-src" ng-click="speechSrc(); $event.stopPropagation();"><div id="progressTarget" class="progress"></div>
+                <span class="text" ng-if="state.isEnglishVisible">{{ currentItem.textSrc}}</span>
+            </div>
+        </div>
+    </body>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/angular/1.6.3/angular.min.js"></script>
+    <script src="libs/angular/1.6.3/angular-animate.min.js"></script>
+    <script src="libs/angular/1.6.3/angular-aria.min.js"></script>
+    <script src="libs/angular/1.6.3/angular-messages.min.js"></script>
+    <script src="libs/angular/angular-material.min.js"></script>
+    <script src="js/xmlToJson.js"></script>
+    <script src="js/playerCtr.js"></script>
+</html>

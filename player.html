@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .textSrc {
+            font-size: 20px;
+        }
+        .textTarget {
+            font-size: 20px;
+            color: yellow;
+        }
+        .container {
+           display: flex; 
+           flex-direction: column;
+           flex-wrap: wrap;
+           justify-content: space-between;
+        }
+        .item1 {
+           order: 1; 
+        }
+        .item2 {
+           order: 2; 
+        }    
+    </style>
+    <body ng-app="MYE" ng-controller="playerCtr">
+        <audio style="position: fixed; top: -1000px" id="vPlayer" width="0" height="0" controls></audio>
+        <input type="button" value="play" ng-click="playNext()"></input>
+        <div class="container">
+            <div class="item1 textSrc">{{ currentItem.textSrc}}</div>
+            <div class="item2 textTarget">{{ currentItem.textTarget}}</div>
+        </div>
+    </body>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/jquery.noty.packaged.min.js"></script>
+    <script src="libs/angular/1.6.3/angular.min.js"></script>
+    <script src="libs/angular/1.6.3/angular-animate.min.js"></script>
+    <script src="libs/angular/1.6.3/angular-aria.min.js"></script>
+    <script src="libs/angular/1.6.3/angular-messages.min.js"></script>
+    <script src="libs/angular/angular-material.min.js"></script>
+    <script src="js/xmlToJson.js"></script>
+    <script src="js/playerCtr.js"></script>
+</html>

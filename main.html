@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="app/common/main.css" type="text/css"/>
+        <link rel="stylesheet" href="app/player/player.css" type="text/css"/>
+        <title>Move your english</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>    
+    <body ng-app="MYE" ng-controller="mainCtr">
+        <div ng-if="view==='menu'" class="menu-container">
+            <div class="menu-item" ng-repeat="talk in talks"> 
+                <div class="menu-subitem-1" ng-click=" selectTalk( talk )"> {{talk.name}}</div> 
+            </div>                   
+        </div>
+        <div ng-if="view==='player'">
+            <mye-player talk="talk"></mye-player>
+        </div>    
+    </body>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/angular/1.6.3/angular.min.js"></script>
+    <script src="libs/angular/1.6.3/angular-animate.min.js"></script>
+    <script src="libs/angular/1.6.3/angular-aria.min.js"></script>
+    <script src="libs/angular/1.6.3/angular-messages.min.js"></script>
+    <script src="libs/angular/angular-material.min.js"></script>
+    <!-- commonents -->
+    <script src="app/common/main.js"></script>
+    <script src="app/utils/utils.js"></script>
+    <script src="js/myeEditor/synchText.js"></script>
+    <script src="app/player/player.js"></script>      
+</html>

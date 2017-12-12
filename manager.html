@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="js/editorItem/editorItem.css" type="text/css"/>
+        <style>
+            table, th, td {                    
+                border: 1px solid black;
+            }
+            textarea {
+                border: none;
+                width: 100%;
+                -webkit-box-sizing: border-box; /* <=iOS4, <= Android  2.3 */
+                -moz-box-sizing: border-box; /* FF1+ */
+                box-sizing: border-box; /* Chrome, IE8, Opera, Safari 5.1*/
+            }
+            td textarea {
+                width: 100%;
+                height: 100%
+            }
+            .load-ui {
+                display: flex; 
+                flex-direction: column;
+                margin: 15px 15px 15px 15px; 
+            }
+            .load-ui > div {    
+                margin: 15px 15px 15px 15px; 
+            }
+            .editor-container {
+                display: flex; 
+                flex-direction: row;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div ng-app="MYE" ng-controller="managerCtr">
+            <!--
+            <audio id="mPlayer" controls>
+                <source src="data/07x01 - The One With Monica's Thunder (convert-video-online.com).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            -->
+            <div class="load-ui" >
+                <div>Load Mkv: <input id="videoBtn" type="file" /></div>
+                <div>Load Srt: <input id="srtBtn" type="file"/></div>
+                <div>video url: <input id="inputVideo" type="text" ng-model="videoUrl" width="500px"/> <input type="button" ng-click="loadVideo()" value="load video"/></div>
+                <div>vtt en url: <input id="vttEnUrl" type="text" ng-model="vttEnUrl" width="500px"/> <input type="button" ng-click="loadVttEN(vttEnUrl)" value="ok"/></div>
+                <div>vtt pl url: <input id="vttPlUrl" type="text" ng-model="vttPlUrl" width="500px"/> <input type="button" ng-click="loadVttPL(vttPlUrl)" value="ok"/></div>
+                <div>Load vtt Eng: <input id="vttBtnEN" type="file"/></div>
+                <div>Load vtt Pol: <input id="vttBtnPL" type="file"/></div>
+                <div> <button ng-click="marge()">Marge</button></div>
+                <div> <button ng-click="download('myfilename.json', 'text/plain')">Save...</button></div>
+            </div>
+            <video id="vPlayer" width="320" height="240" controls>
+                <!--<source id="movieSource" src="data/07x01 - The One With Monica's Thunder (convert-video-online.com).mkv" type="video/mp4">-->
+                <source id="movieSource" src="" type="video/mp4">
+            </video>
+            <div ng-if="isInitialized">
+                <table style="width: 100%;">
+                    <tr ng-repeat="item in data">
+                        <td width="60px"><input type="button" ng-click="speechTarget(item)" value="powiedz"/></td>
+                        <td width="60px"><input type="button" ng-click="speechSrc(item)" value="say it"/></td>
+                        <td width="60px"><input type="button" ng-click="speechSrcRobot(item)" value="say it as robot"/></td>
+                        <td width="80px"><input ng-model="item.timeStart"></td>
+                        <td width="80px"><input ng-model="item.timeEnd"></td>
+                        <td height="100px"><textarea style="width: 100%" ng-model="item.textSrc"></textarea></td>
+                        <td height="100px"><textarea style="width: 100%" ng-model="item.textTarget"></textarea></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <div class="editor-container">
+                    <div ng-if="isENLoaded">
+                        <editor-item ng-repeat="item in vttEN" items="vttEN" index="$index"/>
+                    </div>
+                     <div ng-if="isPLLoaded">
+                        <editor-item ng-repeat="item in vttPL" items="vttPL" index="$index"/>
+                    </div>
+                </div>
+                <!--table style="width: 100%;">
+                    <tr ng-repeat="item in vttEN">                        
+                        <td width="60px"><input type="button" ng-click="speechSrc(item)" value="say it"/></td>
+                        <td width="60px"><input type="button" ng-click="speechSrcRobot(item)" value="say it as robot"/></td>
+                        <td width="80px"><input ng-model="item.timeStart"></td>
+                        <td width="80px"><input ng-model="item.timeEnd"></td>
+                        <td height="100px"><textarea style="width: 100%" ng-model="item.text"></textarea></td>
+                    </tr>
+                </table-->
+            </div>
+        </div>
+    </body>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/jquery.noty.packaged.min.js"></script>
+    <script src="libs/angular/1.6.3/angular.min.js"></script>
+    <script src="libs/angular/1.6.3/angular-animate.min.js"></script>
+    <script src="libs/angular/1.6.3/angular-aria.min.js"></script>
+    <script src="libs/angular/1.6.3/angular-messages.min.js"></script>
+    <script src="libs/angular/angular-material.min.js"></script>
+    <script src="js/xmlToJson.js"></script>
+    <!--script src="js/app.js"></script-->
+    <script src="js/manager.js"></script>
+    <script src="js/myeEditor/synchText.js"></script>
+    <script src="js/myeEditor/editor.js"></script>
+    <script src="js/editorItem/editorItem.js"></script>
+    
+</html>
