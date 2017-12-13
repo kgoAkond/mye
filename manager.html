@@ -32,6 +32,10 @@
                 display: flex; 
                 flex-direction: row;
             }
+            .options-row {
+                display: flex; 
+                flex-direction: row;
+            }
         </style>
     </head>
 
@@ -43,14 +47,14 @@
                 Your browser does not support the audio element.
             </audio>
             -->
-            <div class="load-ui" >
-                <div>Load Mkv: <input id="videoBtn" type="file" /></div>
-                <div>Load Srt: <input id="srtBtn" type="file"/></div>
-                <div>video url: <input id="inputVideo" type="text" ng-model="videoUrl" width="500px"/> <input type="button" ng-click="loadVideo()" value="load video"/></div>
-                <div>vtt en url: <input id="vttEnUrl" type="text" ng-model="vttEnUrl" width="500px"/> <input type="button" ng-click="loadVttEN(vttEnUrl)" value="ok"/></div>
-                <div>vtt pl url: <input id="vttPlUrl" type="text" ng-model="vttPlUrl" width="500px"/> <input type="button" ng-click="loadVttPL(vttPlUrl)" value="ok"/></div>
+            <div class="load-ui">
+                <div>TED URL: <input id="tedUrl" type="text" ng-model="tedUrl" /> <input type="button" ng-click="loadTED(tedUrl)" value="ok"/></div>
                 <div>Load vtt Eng: <input id="vttBtnEN" type="file"/></div>
                 <div>Load vtt Pol: <input id="vttBtnPL" type="file"/></div>
+                <div>vtt en url: <input id="vttEnUrl" type="text" ng-model="vttEnUrl" width="500px"/> <input type="button" ng-click="loadVttEN(vttEnUrl)" value="ok"/></div>
+                <div>vtt pl url: <input id="vttPlUrl" type="text" ng-model="vttPlUrl" width="500px"/> <input type="button" ng-click="loadVttPL(vttPlUrl)" value="ok"/></div>
+                <div>video url: <input id="inputVideo" type="text" ng-model="videoUrl" width="500px"/> <input type="button" ng-click="loadVideo()" value="load video"/></div>
+                <div>Load Mkv: <input id="videoBtn" type="file" /></div>
                 <div> <button ng-click="marge()">Marge</button></div>
                 <div> <button ng-click="download('myfilename.json', 'text/plain')">Save...</button></div>
             </div>

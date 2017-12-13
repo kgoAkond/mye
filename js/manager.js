@@ -4,12 +4,29 @@ angular.module('MYE', ['ngMaterial', 'ngMessages', 'ngAnimate']).controller('man
         $scope.data = [];
         $scope.vttEN = [];
         $scope.vttPL = [];
+        $scope.tedUrl = "";
         //$scope.videoUrl = "https://download.ted.com/talks/LaurenSallan_2017U.mp3";
         $scope.videoUrl = "https://download.ted.com/talks/LaurenSallan_2017U-480p.mp4";
         $scope.vttEnUrl = "https://hls.ted.com/talks/3587/subtitles/pl/full.vtt";
         $scope.vttPlUrl = "https://hls.ted.com/talks/3587/subtitles/en/full.vtt";
         
-
+        $scope.loadTED = function( url ) {
+            $http.get(url).then(function successCallback(response) {
+                console.log(response.data);
+                var args = response.data;
+                    $scope.tedId = args.id;
+                    $scope.tedMovieId = args.movieId;
+                    $scope.videoUrl = "https://download.ted.com/talks/" + $scope.tedMovieId + "-480p.mp4";
+                    $scope.vttEnUrl = "https://hls.ted.com/talks/" + $scope.tedId + "/subtitles/pl/full.vtt";
+                    $scope.vttPlUrl = "https://hls.ted.com/talks/" + $scope.tedId + "/subtitles/en/full.vtt";
+                    $scope.loadVideo();
+                    $scope.loadVttEN( $scope.vttEnUrl );
+                    $scope.loadVttPL( $scope.vttPlUrl );
+                
+            }, function errorCallback(response) {
+                console.log("ERROR DURING LOAD TED");
+            });
+        }
         function parseSrt(srt) {
             try {
                 var myeJson = [];
