@@ -1,5 +1,4 @@
  <? 
-header('Access-Control-Allow-Origin: *'); 
 function get_html($url)
 {
 	  $useragent = 'User-Agent	Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)';

@@ -1,26 +1,18 @@
-<html>
+
+ <html>
     <head>
         <link rel="stylesheet" href="app/common/main.css" type="text/css"/>
         <link rel="stylesheet" href="app/player/player.css" type="text/css"/>
         <title>Move your english</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>    
+    </head>   
+    
     <script>
         var tedTalk = {"movieId":"LaurenSallan_2017U","id":"3587","img":"https:\/\/pi.tedcdn.com\/r\/pe.tedcdn.com\/images\/ted\/2d9c184e96bac5137ed700bf8b890d248184e530_2880x1620"}        
     </script>
-    <body ng-app="MYE" ng-controller="playerCtr">
-        <audio style="position: fixed; top: -1000px" id="vPlayer" width="0" height="0" controls></audio>
-        <div class="player-container">
-            <div class="player-item" ng-repeat="item in vttEN" ng-click="selectItem( $index, item )" ng-class="{'player-item-backlight': selectedItem === item }"> 
-                <div class="player-subitem-2"> {{item.textTR}}</div> 
-                <div class="player-subitem-1" ng-class="{'player-show-text-src' : item.isTextSrcVisible,  'player-hide-text' : !item.isTextSrcVisible }"> {{item.text}} </div> 
-                <div ng-if="selectedItem === item" id="progressBar" class="player-progress"></div>
-                <div ng-if="selectedItem !== item" class="player-progress-hide"></div>
-            </div> 
-            <div style="height: 10vh"></div>
-        </div>
-        <div class="player-btn player-btn-back" ng-click="back()"> <img src="resources/icons/back-arrow.svg" width="100%"> </div>
+    <body ng-app="MYE">
+        <mye-player></mye-player>
     </body>
     <script src="libs/jquery/jquery.min.js"></script>
     <script src="libs/angular/1.6.3/angular.min.js"></script>
@@ -32,5 +24,5 @@
     <script src="app/common/main.js"></script>
     <script src="app/utils/utils.js"></script>
     <script src="js/myeEditor/synchText.js"></script>
-    <script src="app/player/playerCtr.js"></script>      
+    <script src="app/player/player.js"></script>      
 </html>

@@ -1,2 +1,2 @@
 RewriteEngine on
-RewriteRule ^.*$ c.php
+RewriteRule ^.*$ player.php

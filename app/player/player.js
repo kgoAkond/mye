@@ -19,8 +19,15 @@
             video.appendChild(source);
 
         }
+        function extendTalk( talk ){
+              talk.movie = "https://download.ted.com/talks/" + talk.movieId + "-480p.mp4";
+              talk.textPL = "https://hls.ted.com/talks/" + talk.id + "/subtitles/pl/full.vtt";
+              talk.textEN  = "https://hls.ted.com/talks/" + talk.id + "/subtitles/en/full.vtt";
+              return talk;
+        }
         this.$onChanges = function () {
-           ctrl.talk =  this.talk;
+          // ctrl.talk =  this.talk;
+           ctrl.talk =  extendTalk( tedTalk );
            initAudio(this.talk.movie);
            utils.loadJson( this.talk.textPL, loadVttPLCallback);
            
@@ -72,8 +79,5 @@
     angular.module('MYE').component('myePlayer', {
         templateUrl: 'app/player/player.html',
         controller: ['$scope', 'utils', 'SynchText', controller],       
-        bindings: {
-            talk: '<',
-        }
     });
 })();

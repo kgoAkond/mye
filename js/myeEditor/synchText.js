@@ -157,6 +157,7 @@ angular.module('MYE').service('SynchText', [function () {
                             sOld = s;
                         } else {
                             enFit.items.push(pl);
+                            enFit.textTR ?  enFit.textTR += pl.text : enFit.textTR = pl.text;
                             break;
                         }
                     } else {

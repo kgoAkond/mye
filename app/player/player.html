@@ -1,8 +1,7 @@
-        <audio style="position: fixed; top: -1000px" id="vPlayer" width="0" height="0" controls></audio>
         <div class="player-container">
             <div class="player-item" ng-repeat="item in $ctrl.vttEN" ng-click="$ctrl.selectItem( $index, item )" ng-class="{'player-item-backlight': $ctrl.selectedItem === item }"> 
-                <div class="player-subitem-2"> {{item.text}}</div> 
-                <div class="player-subitem-1" ng-class="{'player-show-text-src' : item.isTextSrcVisible,  'player-hide-text' : !item.isTextSrcVisible }"> {{item.textSrc}} </div> 
+                <div class="player-subitem-2"> {{item.textTR}}</div> 
+                <div class="player-subitem-1" ng-class="{'player-show-text-src' : item.isTextSrcVisible,  'player-hide-text' : !item.isTextSrcVisible }"> {{item.text}} </div> 
                 <div ng-if="$ctrl.selectedItem === item" id="progressBar" class="player-progress"></div>
                 <div ng-if="$ctrl.selectedItem !== item" class="player-progress-hide"></div>
             </div> 
@@ -10,3 +9,4 @@
         </div>
         <div class="player-btn player-btn-back" ng-click="$ctrl.back()"> <img src="resources/icons/back-arrow.svg" width="100%"> </div>
 
+ 
